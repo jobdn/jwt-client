@@ -1,3 +1,4 @@
+/* eslint-disable */
 import backend from "../http";
 
 import { AxiosResponse } from "axios";

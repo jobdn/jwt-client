@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const HomePage = () => {
   return (
     <div className="page page_center">

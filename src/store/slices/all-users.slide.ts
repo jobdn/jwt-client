@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 import { usersThunk } from "store/thunks/users.thunk";

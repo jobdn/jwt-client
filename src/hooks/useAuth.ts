@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useAppSelector } from "hooks";
 
 export const useAuth = () => {

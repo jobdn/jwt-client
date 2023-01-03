@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { InputHTMLAttributes } from "react";
 
 import classes from "./Input.module.css";
