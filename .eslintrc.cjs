@@ -11,6 +11,7 @@ module.exports = {
     "standard-with-typescript",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:cypress/recommended",
     "prettier",
   ],
   parserOptions: {
@@ -20,7 +21,7 @@ module.exports = {
     project: ["./tsconfig.json"],
   },
   parser: "@typescript-eslint/parser",
-  plugins: ["react", "@typescript-eslint", "prettier"],
+  plugins: ["react", "@typescript-eslint", "cypress", "prettier"],
   rules: {
     "import/order": [
       "error",
