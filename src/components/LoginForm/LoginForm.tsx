@@ -1,17 +1,12 @@
-/* eslint-disable */
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Form } from "components/Form";
 import { useAppDispatch, useAppSelector } from "hooks";
 import { loginThunk } from "store/thunks/login.thunk";
 import { Input } from "components/Input";
+import { AvailableLoginFormFieldsId } from "models/form-fields";
 
-enum AvailableLoginFormFieldsId {
-  EMAIL = "email",
-  PASSWORD = "password",
-}
-
-export const LoginForm = () => {
+export const LoginForm: React.FC = () => {
   const [email, setEmail] = React.useState<string>("");
   const [password, setPassword] = React.useState<string>("");
   const dispatch = useAppDispatch();

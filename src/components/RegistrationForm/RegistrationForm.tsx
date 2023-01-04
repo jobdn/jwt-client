@@ -5,12 +5,7 @@ import { useAppDispatch, useAppSelector } from "../../hooks";
 import { registerThunk } from "../../store/thunks/register.thunk";
 import { Input } from "../../components/Input";
 import { Form } from "../../components/Form";
-
-enum AvailableRegistrationFormFieldsId {
-  NAME = "name",
-  EMAIL = "email",
-  PASSWORD = "password",
-}
+import { AvailableRegistrationFormFieldsId } from "../../models/form-fields";
 
 export const RegistrationForm: React.FC = () => {
   const [email, setEmail] = React.useState<string>("");
